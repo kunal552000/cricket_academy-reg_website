@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giant Cricket Academy</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Roboto:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+ <style>
+    body{
+    font-family: 'Bree Serif', serif;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('images/alessandro-bogliari-oDs_AxeR5g4-unsplash.jpg');
+    background-repeat: no-repeat;
+     background-size: 1300px 610px;
+   
+}
+.left{
+    display: inline-block;
+     
+     position: absolute;
+    left: 35px;
+    top: 20px;
+}
+.left img{
+    width: 87px;
+}
+.left div{
+    font-size: 9px;
+}
+.center{
+    display: block;
+    width: 33%;
+    margin: 20px auto;
+    /*border: 2px solid green;*/
+}
+.right{
+    position: absolute;
+    right: 35px;
+    top: 30px;
+    display: inline-block;
+   /* border: 2px solid violet;*/
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 15px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 24px 13px;
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: grey;
+}
+
+.bts{
+    font-family: 'Bree Serif', serif;
+    margin: 0px 9px;
+    background-color: rgb(115, 168, 115);
+    color: black;
+    padding: 4px 2px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.bts:hover{
+    
+    background-color: white;
+}
+.container{
+   /* border: 2px solid red;*/
+    
+    margin: 40px 6px;
+    padding: 30px 60px;
+    border-radius: 5px;
+    width: 50%;
+    
+}
+.form-group input{
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    display: block;
+    padding: 3px;
+    margin: 8px auto;
+    width: 350px;
+    border: 2px solid black;
+    font-size: 20px;
+    border-radius: 5px;
+
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: block;
+    margin: auto;
+    width: 25%;
+}
+
+</style>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="images/logo.png" alt="">
+            <div>Giant Cricket Academy</div>
+        </div>
+        <div class="center">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Academy</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="bts">Call Us Now</button>
+            <button class="bts">Email Us</button>
+        </div>
+
+    </header>
+    <div class="container">
+        <h1>Join the best cricket academy of India</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Phone Number">
+            </div>
+            <button class="bts">Submit</button>
+        </form>
+    </div>
+
+    
+</body>
+</html>
